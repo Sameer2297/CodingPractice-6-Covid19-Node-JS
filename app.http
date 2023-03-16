@@ -1,0 +1,29 @@
+GET http://localhost:5000/states/
+
+###
+
+GET http://localhost:5000/states/2/
+
+###
+
+POST http://localhost:5000/districts/
+
+###
+
+GET http://localhost:5000/districts/15/
+
+###
+
+DELETE http://localhost:5000/districts/11/
+
+###
+
+PUT http://localhost:5000/districts/11/
+
+###
+
+GET http://localhost:5000/states/2/stats/
+
+###
+
+GET http://localhost:5000/districts/15/details/
